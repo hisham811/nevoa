@@ -93,9 +93,42 @@ form .form-btn:hover {
     transition: 0.2s;
 }
 @media(max-width:800px){
+    header .container {
+        flex-direction: column-reverse;
+    }
+    .past-card {
+        flex-direction: column;
+    }
+    .past-card .card {
+        margin-bottom:20px;
+    }
+    .offers-cards {
+        flex-direction: column;
+    }
+    .offers-cards .card {
+        margin-bottom: 20px;
+    }
+    .all {
+        flex-direction: column;
+    }
+    .all p {
+        width: 100%;
+    }
     .about img {
         width:200px;
-        margin-top: 100%;
+    }
+    .choose {
+        flex-direction: column;
+    }
+    .problem img{
+        width: 220px;
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+    .input .col:not(:nth-child(1)) {
+        margin-bottom: 10px;
     }
 }
 .space {
