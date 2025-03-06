@@ -12,6 +12,15 @@ body {
     --color-1:rgb(200, 200, 200);
     --color-2:rgb(52, 52, 52);
 }
+.main-header p{
+    margin-top: 50px;
+}
+.main-header h3{
+    margin-top: 50px;
+}
+.about-text {
+    width: 50%;
+}
 .main-heading {
     width: fit-content;
     padding: 10px 20px;
@@ -126,9 +135,11 @@ form .form-btn:hover {
     .input {
         display: flex;
         flex-direction: column;
+        
     }
-    .input .col:not(:nth-child(1)) {
-        margin-bottom: 10px;
+    
+    .about-text{
+        width: 100%;
     }
 }
 .space {
