@@ -101,6 +101,9 @@ form .form-btn:hover {
     color: var(--color-1);
     transition: 0.2s;
 }
+.about-img img {
+    width: 400px;
+}
 @media(max-width:800px){
     header .container {
         flex-direction: column-reverse;
